@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T12:45:21+05:30</updated><id>http://localhost:4000/</id><title type="html">Hyde</title><subtitle>A brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</subtitle><author><name>Mark Otto</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/www/jekyll/update/2018/09/01/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-09-01T01:46:26+05:30</published><updated>2018-09-01T01:46:26+05:30</updated><id>http://localhost:4000/www/jekyll/update/2018/09/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/www/jekyll/update/2018/09/01/welcome-to-jekyll/">You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts &quot;Hi, #{name}&quot;
+end
+print_hi('Tom')
+#=&gt; prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/</content><author><name>Mark Otto</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Introducing Hyde</title><link href="http://localhost:4000/2013/12/28/introducing-hyde/" rel="alternate" type="text/html" title="Introducing Hyde" /><published>2013-12-28T00:00:00+05:30</published><updated>2013-12-28T00:00:00+05:30</updated><id>http://localhost:4000/2013/12/28/introducing-hyde</id><content type="html" xml:base="http://localhost:4000/2013/12/28/introducing-hyde/">Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+
+### Built on Poole
+
+Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+
+* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
+* Mobile friendly design and development
+* Easily scalable text and component sizing with `rem` units in the CSS
+* Support for a wide gamut of HTML elements
+* Related posts (time-based, because Jekyll) below each post
+* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+
+### Hyde features
+
+In addition to the features of Poole, Hyde adds the following:
+
+* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
+* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `&lt;body&gt;` classes
+* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `&lt;body&gt;` classes
+
+[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+
+### Browser support
+
+Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+
+### Download
+
+Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.
+
+Thanks!</content><author><name>Mark Otto</name></author><summary type="html">Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content. It’s based on Poole, the Jekyll butler. Built on Poole Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by @mdo. Poole, and every theme built on it (like Hyde here) includes the following: Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, and example page) Mobile friendly design and development Easily scalable text and component sizing with rem units in the CSS Support for a wide gamut of HTML elements Related posts (time-based, because Jekyll) below each post Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter) Hyde features In addition to the features of Poole, Hyde adds the following: Sidebar includes support for textual modules and a dynamically generated navigation with active link support Two orientations for content and sidebar, default (left sidebar) and reverse (right sidebar), available via &amp;lt;body&amp;gt; classes Eight optional color schemes, available via &amp;lt;body&amp;gt; classes Head to the readme to learn more. Browser support Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above. Download Hyde is developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests. Thanks!</summary></entry><entry><title type="html">Example content</title><link href="http://localhost:4000/2012/02/07/example-content/" rel="alternate" type="text/html" title="Example content" /><published>2012-02-07T00:00:00+05:30</published><updated>2012-02-07T00:00:00+05:30</updated><id>http://localhost:4000/2012/02/07/example-content</id><content type="html" xml:base="http://localhost:4000/2012/02/07/example-content/">&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+
+&gt; Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+
+## Inline HTML elements
+
+HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
+- **To bold text**, use `&lt;strong&gt;`.
+- *To italicize text*, use `&lt;em&gt;`.
+- Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use `&lt;abbr&gt;`, with an optional `title` attribute for the full phrase.
+- Citations, like &lt;cite&gt;&amp;mdash; Mark otto&lt;/cite&gt;, should use `&lt;cite&gt;`.
+- &lt;del&gt;Deleted&lt;/del&gt; text should use `&lt;del&gt;` and &lt;ins&gt;inserted&lt;/ins&gt; text should use `&lt;ins&gt;`.
+- Superscript &lt;sup&gt;text&lt;/sup&gt; uses `&lt;sup&gt;` and subscript &lt;sub&gt;text&lt;/sub&gt; uses `&lt;sub&gt;`.
+
+Most of these elements are styled by browsers with few modifications on our part.
+
+## Heading
+
+Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+### Code
+
+Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+
+{% highlight js %}
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;);
+
+// Call the function
+adder(2, 6);
+// &gt; 8
+{% endhighlight %}
+
+Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+
+### Gists via GitHub Pages
+
+Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
+
+{% gist 5555251 gist.md %}
+
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
+
+### Lists
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+* Donec id elit non mi porta gravida at eget metus.
+* Nulla vitae elit libero, a pharetra augue.
+
+Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+
+1. Vestibulum id ligula porta felis euismod semper.
+2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+### Images
+
+Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+
+![placeholder](http://placehold.it/800x400 &quot;Large example image&quot;)
+![placeholder](http://placehold.it/400x200 &quot;Medium example image&quot;)
+![placeholder](http://placehold.it/200x200 &quot;Small example image&quot;)
+
+### Tables
+
+Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+-----
+
+Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;</content><author><name>Mark Otto</name></author><summary type="html">Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Inline HTML elements HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network. To bold text, use &amp;lt;strong&amp;gt;. To italicize text, use &amp;lt;em&amp;gt;. Abbreviations, like HTML should use &amp;lt;abbr&amp;gt;, with an optional title attribute for the full phrase. Citations, like — Mark otto, should use &amp;lt;cite&amp;gt;. Deleted text should use &amp;lt;del&amp;gt; and inserted text should use &amp;lt;ins&amp;gt;. Superscript text uses &amp;lt;sup&amp;gt; and subscript text uses &amp;lt;sub&amp;gt;. Most of these elements are styled by browsers with few modifications on our part. Heading Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Code Cum sociis natoque penatibus et magnis dis code element montes, nascetur ridiculus mus. // Example can be run directly in your JavaScript console // Create a function that takes two arguments and returns the sum of those arguments var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;); // Call the function adder(2, 6); // &amp;gt; 8 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa. Gists via GitHub Pages Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Lists Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. HyperText Markup Language (HTML) The language used to describe and define the content of a Web page Cascading Style Sheets (CSS) Used to describe the appearance of Web content JavaScript (JS) The programming language used to build advanced Web sites and applications Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Images Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at. Tables Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Name Upvotes Downvotes Totals 21 23 Alice 10 11 Bob 4 3 Charlie 7 9 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Want to see something else added? Open an issue.</summary></entry><entry><title type="html">What’s Jekyll?</title><link href="http://localhost:4000/2012/02/06/whats-jekyll/" rel="alternate" type="text/html" title="What's Jekyll?" /><published>2012-02-06T00:00:00+05:30</published><updated>2012-02-06T00:00:00+05:30</updated><id>http://localhost:4000/2012/02/06/whats-jekyll</id><content type="html" xml:base="http://localhost:4000/2012/02/06/whats-jekyll/">[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+
+  &gt; Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+It's an immensely useful tool and one we encourage you to use here with Hyde.
+
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).</content><author><name>Mark Otto</name></author><summary type="html">Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme: Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub. It’s an immensely useful tool and one we encourage you to use here with Hyde. Find out more by visiting the project on GitHub.</summary></entry></feed>
