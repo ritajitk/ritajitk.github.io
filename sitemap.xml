@@ -4,10 +4,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https:///index.html</loc><lastmod>2020-11-02</lastmod><priority>1.0</priority></url>
-<url><loc>https:///research.html</loc><lastmod>2020-11-02</lastmod><priority>1.0</priority></url>
-<url><loc>https:///index.html</loc><lastmod>2020-11-02</lastmod><priority>1.0</priority></url>
-<url><loc>https:///mark.html</loc><lastmod>2020-11-02</lastmod><priority>1.0</priority></url>
-<url><loc>https:///mark.html</loc><lastmod>2020-11-02</lastmod><priority>1.0</priority></url>
-<url><loc>https:///research.html</loc><lastmod>2020-11-02</lastmod><priority>1.0</priority></url>
+<url><loc>https://ritajitk.github.io//contact.html</loc><lastmod>2020-12-14</lastmod><priority>1.0</priority></url>
+<url><loc>https://ritajitk.github.io//research.html</loc><lastmod>2020-12-14</lastmod><priority>1.0</priority></url>
+<url><loc>https://ritajitk.github.io//index.html</loc><lastmod>2020-12-14</lastmod><priority>1.0</priority></url>
+<url><loc>https://ritajitk.github.io//mark.html</loc><lastmod>2020-12-14</lastmod><priority>1.0</priority></url>
 </urlset>
