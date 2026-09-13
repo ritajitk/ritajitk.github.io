@@ -33,7 +33,20 @@
       padding: clamp(4.5rem, 12vw, 8rem) 0 3rem;
     }
 
-    header { margin-bottom: 3.5rem; }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 14rem;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .profile-photo {
+      width: 14rem;
+      height: auto;
+      border: 1px solid var(--rule);
+      border-radius: 0.35rem;
+    }
 
     h1 {
       margin: 0;
@@ -95,6 +108,36 @@
       font-size: 0.95rem;
     }
 
+    .data-list {
+      display: grid;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .data-list li {
+      padding: 1.25rem;
+      border: 1px solid var(--rule);
+      border-radius: 0.25rem;
+    }
+
+    .data-title {
+      margin-bottom: 0.35rem;
+      line-height: 1.45;
+    }
+
+    .data-description {
+      margin-bottom: 0.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .data-link {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.85rem;
+    }
+
     a {
       color: var(--accent);
       text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
@@ -132,7 +175,17 @@
 
     @media (max-width: 480px) {
       body { font-size: 1.05rem; }
-      header { margin-bottom: 2.75rem; }
+
+      header {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-bottom: 2.75rem;
+      }
+
+      .profile-photo {
+        grid-row: 1;
+        width: 11rem;
+      }
 
       .appointments li {
         grid-template-columns: 1fr;
@@ -150,20 +203,68 @@
 <body>
   <main>
     <header>
-      <h1>Ritajit Kundu</h1>
-      <p class="subtitle">Theoretical condensed matter physicist</p>
+      <div>
+        <h1>Ritajit Kundu</h1>
+        <p class="subtitle">Postdoctoral researcher: theoretical condensed matter physics</p>
+      </div>
+      <img class="profile-photo" src="my_photo.jpg" alt="Ritajit Kundu" width="2147" height="2147">
     </header>
 
     <section aria-label="About">
       <p>
-        I am a postdoctoral researcher at Indiana University Bloomington. My
-        current research focuses on the quantum Hall effect.
+        I am a postdoctoral researcher at Indiana University Bloomington.
       </p>
 
       <p>
         I completed my PhD in theoretical condensed matter physics at
         IIT Kanpur.
       </p>
+    </section>
+
+    <section aria-labelledby="research-heading">
+      <h2 id="research-heading">Research</h2>
+      <p>
+        I am interested in understanding exotic quantum matter and the
+        collective phenomena that emerge in strongly interacting systems. My
+        current research focuses on moiré physics, the fractional quantum Hall
+        effect, and network models.
+      </p>
+    </section>
+
+    <section aria-labelledby="data-heading">
+      <h2 id="data-heading">Datasets</h2>
+      <p>
+        Data and numerical results generated in connection with my research are
+        openly available on Zenodo.
+      </p>
+      <ol class="data-list">
+        <li>
+          <p class="data-title">
+            Data for “Sum rules and density-wave modes in spin-singlet
+            fractional quantum Hall fluids”
+          </p>
+          <p class="data-description">
+            Pair correlations, static structure factors, and density-wave modes
+            for spin-polarized and spin-singlet fractional quantum Hall states.
+          </p>
+          <a class="data-link" href="https://doi.org/10.5281/zenodo.21885624" target="_blank" rel="noopener noreferrer">
+            Zenodo · 10.5281/zenodo.21885624
+          </a>
+        </li>
+        <li>
+          <p class="data-title">
+            Data for “Relations between density-density correlators of states in
+            the maximal spin multiplet”
+          </p>
+          <p class="data-description">
+            Coulomb-energy data for several spin-polarized fractional quantum
+            Hall states.
+          </p>
+          <a class="data-link" href="https://doi.org/10.5281/zenodo.21868489" target="_blank" rel="noopener noreferrer">
+            Zenodo · 10.5281/zenodo.21868489
+          </a>
+        </li>
+      </ol>
     </section>
 
     <section aria-labelledby="appointments-heading">

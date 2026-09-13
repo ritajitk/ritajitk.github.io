@@ -1,0 +1,251 @@
+%!TeX program = lualatex
+\documentclass[a4paper,11pt]{article}
+\usepackage{microtype}
+\usepackage{newtxtext} % Times-style text font
+\usepackage{newtxmath} % Times-compatible math font
+\usepackage[a4paper, margin=1in, left=0.75in, right=0.75in, top=1in, bottom=1in]{geometry}
+\usepackage{titlesec} % For custom section formatting
+\usepackage{enumitem} % For itemized lists without indentation
+\usepackage{xcolor}
+\definecolor{mycol1}{HSB}{26,196,138}
+\definecolor{mycol2}{RGB}{0,51,160}
+\usepackage[colorlinks=true, linkcolor=mycol2, citecolor=mycol2, urlcolor=mycol2, allcolors=mycol2]{hyperref} % For clickable links
+\usepackage{parskip} % For adding space between paragraphs
+% Custom formatting for section titles
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\usepackage{fontawesome5} % For icons like email and ORCID
+\usepackage{academicons}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage[english]{babel}
+\addto\captionsenglish{\renewcommand{\refname}{Publications \normalfont\small{\href{https://scholar.google.com/citations?user=3Gmu1PoAAAAJ}{Google Scholar}, \href{https://arxiv.org/search/?searchtype=author&query=Ritajit+Kundu}{arXiv}} \hfill \normalfont\small{($\dagger$ Equal Contribution) }}}
+
+% Header with name and contact information
+\newcommand{\headername}{\textbf{\LARGE Ritajit Kundu}} % Name in large bold font
+\newcommand{\headertitle}{{\Huge Curriculum Vitae}} % CV Title
+\newcommand{\headerdept}{Department of Physics, Indiana University, Bloomington, Indiana 47405, USA} % Department and Institute
+\newcommand{\headeremail}{\faEnvelope \enspace \href{mailto:ritkundu@iu.edu}{ritkundu@iu.edu}} % Email with icon
+\newcommand{\headerorcid}{{\faOrcid \enspace \href{https://orcid.org/0000-0003-4917-4020}{0000-0003-4917-4020}}} % ORCID with icon
+
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{} % Clear default header and footer
+%\fancyhead[R]{Ritajit Kundu} % Left header
+%\fancyhead[L]{Curriculum Vitae} % Right header
+%\fancyfoot[C]{\thepage} % Centered page number in footer
+%\setlength{\headheight}{13.59999pt}
+
+\begin{document}
+%\thispagestyle{empty}
+% Header
+\begin{center}
+	{\headername} \\[0.3em] % Name and CV Title separated by "|"
+	{\headerdept} \\ % Department line
+	{\headeremail} \quad \textbf{•} \quad {\headerorcid} % Email and ORCID separated by a dot
+\end{center}
+
+\vspace{1em}
+
+% Education Section
+\section*{Education and Experience}
+\noindent
+\textbf{Postdoctoral Researcher, Indiana University Bloomington, USA} \hfill Sep 2026--Present \\[0.5em]
+\textbf{ANRF National Postdoctoral Fellow, The Institute of Mathematical Sciences, India} \hfill Jan 2026--Aug 2026 \\[0.5em]
+\textbf{FARE Postdoctoral Fellow, Indian Institute of Technology Kanpur, India} \hfill Jan 2025--Dec 2025 \\[0.5em]
+\textbf{Ph.D. in Physics, Indian Institute of Technology Kanpur, India} \hfill Jun 2025 \\[0.5em]
+% Cumulative Performance Index (CPI): 9.5 (on a scale of 10)\\
+% Thesis: \textit{Quantum phases and transport in twisted systems: effects of interactions and topology}
+% 	\begin{itemize}[itemsep=-0.6em, topsep=-0.4em]
+% \item Investigated broken symmetry phases at the interface of two twisted Weyl
+% 	semimetals, identifying an excitonic supersolid ground state. 
+% \item Studied Josephson junction of minimally twisted bilayer graphene. Observed a $4\pi$-periodic Josephson current arising from the underlying zig-zag modes.
+% \item Explored non-local resistance in minimally twisted bilayer graphene, linking
+% 	zig-zag modes to unconventional resistance signatures, corroborated by
+% 	recent experiments.
+% 	\end{itemize}
+% \noindent
+\textbf{M.Sc. in Physics, Indian Institute of Technology Kanpur, India} \hfill 2019 \\[0.5em]
+% Cumulative Performance Index (CPI): 8.6 (on a scale of 10)
+\textbf{B.Sc. in Physics with Honours, Calcutta University} \hfill 2017
+% Aggregate Percentage: 68\%
+
+% Research Interests Section
+\section*{Research Interests}
+\noindent
+\textbf{Quantum Condensed Matter Physics:} Moir\'e materials, fractional quantum Hall effect, and network models.
+
+\section*{Technical Skills}
+\begin{description}[labelsep=0pt, leftmargin=1cm]
+	\item[Theoretical Techniques] 
+		\indent
+		\begin{description}[itemsep=-0.6em, topsep=0em, labelsep=0.5em]
+			\item[Many-Body Physics:] Hartree--Fock theory and variational Monte Carlo.
+			\item[Moir\'e Systems:] Continuum models for moir\'e systems.
+			\item[Quantum Transport:] Kubo formula and nonequilibrium Green's-function methods.
+			% \item[Non-Interacting Theories]: Hofstadter butterfly (also in moiré systems), Floquet-engineering, and theoretical approach to time-resolved ARPES (trARPES).
+		\end{description}
+	\item[Programming Languages]
+		\indent\\
+			 Experienced with C++, Python, Mathematica, Julia, and Bash scripting.
+\end{description}
+
+% Publications Section
+\begin{thebibliography}{9}
+\bibitem{van}
+J. Sarkar, A. Mukherjee, A. Basu, \textbf{R. Kundu}, A. Kundu, M. Deshmukh,
+van der Waals Josephson junctions for quantum science and technology,
+\href{https://doi.org/10.1038/s42254-026-00970-5}{Nat. Rev. Phys. (2026)}.
+    \bibitem{hightc}
+    A. Basu, S. Ash, \textbf{R. Kundu}, N. Bhatia, S. Nema, T. Gawade, K. Agrawal, A. Shah, R. Kulkarni, D. Jangade, A. Kundu, A. Thamizhavel, M. Deshmukh,
+    Quantum interference in a twisted high-Tc SQUID senses emergent interfacial order, \href{https://doi.org/10.1038/s41467-026-75124-3}{Nat. Commun. 17, 8310 (2026)}.
+
+    % \bibitem{tunable}
+    % N. Basak, \textbf{R. Kundu}, B. Mondal, A. Agarwala,
+    % Topologically switchable transport in a bundled cable of wires, \href{https://doi.org/10.48550/arXiv.2601.10534}{arXiv:2601.10534 (2025)}.
+
+    \bibitem{mukherjee2024superconducting}
+    A. Mukherjee, S. Layek, S. Sinha, \textbf{R. Kundu}, A. H. Marchawala, M. Hingankar, J. Sarkar, L. D. Sangani, H. Agarwal, S. Ghosh, et al., 
+    Superconducting magic-angle twisted trilayer graphene hosts competing magnetic order and moir\'{e} inhomogeneities, 
+    \href{https://doi.org/10.1038/s41563-025-02252-4}{Nat. Mater. \textbf{24}, 1400--1406 (2025)}.
+
+    \bibitem{dubey2024trarpes}
+    A. Dubey$^\dagger$, \textbf{R. Kundu}$^\dagger$, A. Kundu, 
+    Time-resolved ARPES and optical transport properties of irradiated twisted bilayer graphene in a steady state, 
+    \href{https://doi.org/10.1103/PhysRevB.111.035431}{Phys. Rev. B \textbf{111}, 035431 (2025)}.
+
+    \bibitem{PhysRevB.110.085422}
+    \textbf{R. Kundu}, A. Kundu, 
+    Josephson junction of minimally twisted bilayer graphene, 
+    \href{https://link.aps.org/doi/10.1103/PhysRevB.110.085422}{Phys. Rev. B \textbf{110}, 085422 (2024)}.
+
+    \bibitem{Kundu_2023}
+    \textbf{R. Kundu}, H. A. Fertig, A. Kundu, 
+    Broken symmetry and competing orders in Weyl semimetal interfaces, 
+    \href{https://doi.org/10.1103/physrevb.107.l041402}{Phys. Rev. B \textbf{107}, L041402 (2023)}.
+
+    \bibitem{Mukherjee_2023}
+    R. Mukherjee, \textbf{R. Kundu}, A. Singh, A. Kundu, 
+    Schwinger-boson mean-field study of the spin-$1/2$ J$_1$-J$_2$-J$_{\chi}$ model in the honeycomb lattice: Thermal Hall signature, 
+    \href{https://doi.org/10.1103/physrevb.107.155122}{Phys. Rev. B \textbf{107}, 155122 (2023)}.
+
+    \bibitem{mohapatra2021role}
+    S. Mohapatra, \textbf{R. Kundu}, A. Dubey, D. Dutta, A. Singh, 
+    Role of orbital off-diagonal spin and charge condensates in a three orbital model for Ca$_2$RuO$_4$: Coulomb renormalized spin-orbit coupling, orbital moment, and tunable magnetic order, 
+    \href{https://doi.org/10.1016/j.jmmm.2021.168172}{J. Magn. Magn. Mater. \textbf{537}, 168172 (2021)}.
+
+\end{thebibliography}
+\section*{Awards}
+\noindent
+\textbf{National Postdoctoral Fellowship} \hfill Jan 2026--Aug 2026 \\
+Anusandhan National Research Foundation
+
+\noindent
+\textbf{Fellowship for Academic and Research Excellence} \hfill Jan 2025--Dec 2025 \\
+Indian Institute of Technology Kanpur
+
+\noindent
+\textbf{Prime Minister's Research Fellow} \hfill 2019--2024 \\
+MHRD, Government of India\\
+\href{https://www.pmrf.in/08-ph-commendable-research-works}{Showcase of research work}
+
+\noindent
+\textbf{Certificate of Merit} \hfill 2017 \\
+Indian Institute of Technology Kanpur\\
+For academic excellence in the Master of Science program
+% \section*{Ongoing works}
+% \noindent
+% \textbf{Coulomb drag in moiré bilayers}\\
+% \emph{In collaboration with: Herbert A. Fertig, Arijit Kundu} \\
+% Investigating Coulomb drag phenomena in moiré bilayer systems, with a focus on how umklapp scattering in small moir\'e Brillouin zones enhances the drag signal. (Work in progress) 
+%
+% \noindent
+% \textbf{Non-local transport in minimally twisted bilayer graphene}\\
+% \emph{In collaboration with: Ranit Dutta, Ayan Ghosh, Anindya Das, Arijit Kundu} \\
+% Exploring non-local resistance signatures due to the network of valley-Hall modes in minimally twisted bilayer graphene, aiming to provide theoretical insight into recently observed experimental phenomena. (Manuscript in preparation)
+
+\section*{Selected Schools and Conferences}
+\noindent
+\textbf{Synthetic Electronic Quantum Matter (SELEQ)} \hfill 2024 \\
+Broken symmetry and competing orders in Weyl semimetal interfaces with Fermi arc states\\
+DIPC, Donostia-San Sebastian, Spain (Poster presentation $\vert$ in-person)
+
+\noindent
+\textbf{Workshop on Twistronics and Moiré Materials: Bridging Theory and Experiments} \hfill 2024\\
+Josephson junction in minimally twisted bilayer graphene \\
+ICTP, Trieste, Italy (Poster presentation $\vert$ in-person)
+
+\noindent
+\textbf{Condensed Matter meets Quantum Information} \hfill 2023 \\
+Broken symmetry and competing orders in Weyl semimetal interfaces with Fermi arc states \\
+ICTS, Bengaluru, India (Poster presentation $\vert$ in-person)
+
+\noindent
+\textbf{APS March Meeting} \hfill 2023\\
+SNS junction in small-angle twisted bilayer graphene \\
+(Contributed talk $\vert$ online)
+
+\noindent
+\textbf{Annual Conference on Quantum Condensed Matter (QMAT)} \hfill 2022 \\
+Broken symmetry and competing orders in Weyl semimetal interfaces with Fermi arc states\\
+IIT Kanpur, India (Poster presentation $\vert$ volunteer $\vert$ in-person)
+
+\noindent
+\textbf{APS March Meeting} \hfill 2022\\
+Broken symmetry and competing orders in Weyl semimetal interfaces with Fermi arc states \\
+(Contributed talk $\vert$ online)
+
+
+\section*{Teaching Activities}
+\begin{description}
+	\item[Tutorials at NPTEL] 
+		\indent
+\begin{itemize}[itemsep=-0.6em, topsep=0em]
+	\item Advanced Condensed Matter Physics (Jan--Mar 2023), {\color{mycol1}\href{https://www.youtube.com/watch?v=E1hOlqM3F6c&list=PLTCElzvohMxJcWDdKVuuSG8QGSLWd6E79}{YouTube playlist}}.
+	\item Advanced Quantum Mechanics with Applications (Jul--Sep 2022), {\color{mycol1}\href{https://www.youtube.com/watch?v=RC1Cryei68A&list=PLTCElzvohMxLPXuP3ZIPgb4gIe1go4s3r}{YouTube playlist}}.
+\end{itemize}
+\item[Kendriya Vidyalaya]
+	\indent\\
+Conducted weekly problem-solving sessions for Class XII students at Kendriya Vidyalaya, IIT Kanpur Campus (2021).
+\item[IIT Kanpur]
+	\indent
+\begin{itemize}[itemsep=-0.6em, topsep=0em]
+	\item {Advanced Statistical Mechanics}, {PHY613} (2024 odd semester at IITK $\vert$ instructor: Adhip Agarwala).
+	\item {Undergraduate Lab}, {PHY101} (2021 odd semester at IITK).
+	\item {Quantum Many-Body Physics}, {PHY607} (2020 even semester at IITK $\vert$ instructor: Arijit Kundu).
+	\item  {Condensed Matter Physics}, {PHY543} (2020 odd semester at IITK $\vert$ instructor: Arijit Kundu).
+	\item  {Electronics}, {PHY441} (2019 odd semester at IITK $\vert$ instructor: Jayita Nayak).
+\end{itemize}
+\end{description}
+
+\section*{References}
+\begin{itemize}
+	\item 
+	\textbf{Prof. Arijit Kundu} \\
+	Department of Physics, Indian Institute of Technology Kanpur, India 208016 \\
+	Email: \href{mailto:kundua@iitk.ac.in}{kundua@iitk.ac.in}
+
+	\item
+	\textbf{Prof. Herbert A. Fertig}\\
+	Department of Physics, Indiana University Bloomington, USA 47405\\
+	Email: \href{mailto:hfertig@iu.edu}{hfertig@iu.edu}
+
+	\item
+	\textbf{Prof. Ajit C. Balram}\\
+	Institute of Mathematical Sciences, CIT Campus, Chennai, 600113, India\\
+	Email: \href{mailto:cb.ajit@gmail.com}{cb.ajit@gmail.com}
+
+	\item
+	\textbf{Prof. Mandar M. Deshmukh}\\
+	Department of Condensed Matter Physics and Materials Science, Tata Institute of Fundamental Research, India 400005\\
+	Email: \href{mailto:deshmukh@tifr.res.in}{deshmukh@tifr.res.in}
+
+	\item 
+	\textbf{Prof. Adhip Agarwala} \\
+	Department of Physics, Indian Institute of Technology Kanpur, India 208016 \\
+	Email: \href{mailto:adhip@iitk.ac.in}{adhip@iitk.ac.in}
+\end{itemize}
+
+\end{document}
